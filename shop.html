@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stil.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&display=swap" rel="stylesheet"> 
+<script src="main.js"></script>
+<script src="https://kit.fontawesome.com/7bcac978dc.js" crossorigin="anonymous"></script>
+<style>
+  body {
+    background-color: bisque;
+    font-family: 'Playfair Display', serif;
+    
+  }
+</style>
+    <title>Shop</title>
+</head>
+<body>
+    <div class="svojstvo_stiky">
+    <br>
+<div class="navbar">
+    <a href="index.html">Pocetna</a>
+    <a href="tabela.html">Tabela</a>
+    <a href="kontakt.html">Kontakt</a>
+    <a href="shop.html">Shop</a>
+    <br>
+</div>
+</div>
+<h1 class="glavni_naslov">Web shop parfimerija</h1>
+<br>
+<h2 class="naslov">Registracija</h2>
+
+<form id="contact_form" action="Welcome.html" method="post" name="contact_form" onsubmit="return provera_parametara(this)">
+
+
+  <ul>
+
+		<li id="prvi">
+			<h2>Obrazac za prijavu:</h2>
+			<span class="required_notification">*obavezna polja</span>
+    </li>
+  
+		<li>
+			<label for="ime_i_prezime" id="labela_ime"><i class="fa-solid fa-user"></i> Ime i prezime:</label>
+			<input type="text" name="ime_i_prezime" placeholder="Unesite ime i prezime" id="ime_prezime">
+
+			<label for="JMBG" id="labela_JMBG"> <i class="fa-solid fa-id-card"></i> JMBG:</label>
+			<input type="text" name="JMBG" placeholder="Unesite JMBG" id="maticni_broj">
+		</li>
+		<br>
+   
+		<li>
+			<label for="korisnicko_ime"><i class="fa-solid fa-user"></i> Korisničko ime:</label>
+			<input type="text" name="korisnicko_ime" placeholder="Unesite korisničko ime" id="username">
+		</li>
+
+		<br>
+
+		<li>
+			<label for="e-mail"><i class="fa-solid fa-envelope"></i> E-mail:</label>
+			<input type="email" name="e-mail" placeholder="Unesite E-mail" required />
+			<span class="form_hint">* @gmail.com</span>
+		</li>
+
+		<br>
+
+		<li>
+			<label for="lozinka" id="labela_o_lozinka"><i class="fa-solid fa-eye-slash"></i> Lozinka:</label>
+			<input type="password" name="lozinka" placeholder="Unesite Vašu lozinku" id="o_lozinka" autocomplete="off">
+		
+			<label for="potvrda_lozinke" id="labela_p_lozinka"><i class="fa-solid fa-eye-slash"></i> Potvrda lozinke:</label>
+			<input type="password" name="potvrda_lozinke" placeholder="Potvrdite Vašu lozinku" id="p_lozinka" onkeyup="Potvrda_Lozinke();"> <!--Testirati dogadjaj  onkeyup=""-->
+		</li>
+  <br>
+		<li>
+			<label for="komentar" id="labela_komentar"><i class="fa-solid fa-comment"></i> Pišite nam:</label>
+			<textarea name="komentar" cols="90" rows="10" class="comment"></textarea>
+		</li>
+		<div class="container">
+
+		<li id="poslednji" >
+			<button class="submit" type="submit">
+				<span>Prijavi se</span>
+			</button>
+			<button class="sumbit" type="reset" onclick="Resetuj();">Resetuj</button>
+		</li>
+		</div>
+
+	</ul>
+</form>
+
+
+
+
+
+</body>
+</html>

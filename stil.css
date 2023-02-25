@@ -1,0 +1,246 @@
+body{
+    margin: 0px 150px;
+    font-family: 'Playfair Display', serif;
+    background-color: bisque;
+}
+
+.navbar{
+	display: flex;
+	background:#df9fbf;
+}
+.navbar a{
+	background-color: #862d59;
+    color:#ffffe6;
+	padding: 12px 14px;
+	text-decoration: none;
+	font-weight: 800;
+}
+
+.navbar a:hover {
+    color:#ffffcc ;
+    background: #862d59;
+    font-weight: 800;
+
+}
+
+.glavni_naslov{
+    color: #11001a;
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    text-shadow: 0px 3px #800080;
+    text-transform: initial;
+    text-align: center;
+    font-style: oblique;
+   
+}
+
+.tekst {
+    color:#b300b3 ;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 3px solid #c8a284;
+    background-color: #ffffcc;
+    padding: 12px 14px;
+    text-align: justify;
+    letter-spacing: 2px;
+}
+
+.naslov {
+
+    color: #b88861;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-shadow: #df9fbf;
+    text-align: left;
+
+}
+
+.svojstvo_stiky {
+
+position: sticky;
+top: 0px;
+z-index: 3;
+
+}
+
+.manji_naslov{
+    color: #11001a;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    
+}
+
+.manji_naslov:hover {
+    color: #c8a284;
+}
+
+.pictures img {
+   width: 500px;
+   border: 2px solid #df9fbf;
+  display: inline-block;
+  flex-wrap: wrap;
+   margin: 0px;
+
+
+}
+
+#contact_form ul {
+    list-style-type: none;
+    list-style-position: outside;
+    background-color: #c8a284;
+    justify-content: center;
+    width: 800px;
+    height: 600px;
+    margin: 0px;
+    padding: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+
+
+}
+
+#contact_form {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+
+}
+
+#contact_form h2
+{
+	margin:0px;
+	display:inline;
+	letter-spacing: 2px;
+	word-spacing: 5px;
+	color:black;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#contact_form textarea
+{
+	width:400px;
+    height: 150px;
+	padding: 3px 14px ;
+
+}
+
+.required_notification
+{
+	float:right;
+	margin-top:5px;
+}
+
+#contact_form li {
+    padding: 10px 14px;
+    position: relative;
+}
+
+#contact_form li:last-child
+{
+	border-bottom: 0px;
+}
+
+#contact_form label {
+    width: 211px;
+    height: 34px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 30px;
+    margin-left: 10px;
+    float: center;
+
+    
+
+
+}
+
+
+#contact_form input {
+    box-sizing: border-box;
+    width: 250px;
+    height: 30px;
+    background: #ffffcc;
+    border: 1px solid #df9fbf;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    transition: all 0.5s;
+    padding-left: 1%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+   
+}
+ 
+#contact_form input:focus {
+    outline: none;
+    box-shadow: 0px 0px 15px #dd8944;
+}
+
+
+.comment {
+    position: relative;
+    justify-content: right;
+    background: #ffffcc;
+    border: 1px solid #df9fbf;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    transition: all 0.5s;
+    
+    
+}
+
+.comment:focus {
+    outline: none;
+    box-shadow: 0px 0px 15px #dd8944;
+}
+
+ 
+#contact_form button{
+   width: 80px;
+   height: 40px;
+   background: #862d59;
+   border-radius: 4px;
+   color: #ffffe6;
+   border: 0;
+   margin-left: 5px;
+   cursor: pointer;
+   box-shadow: 0px 4px 4px rgb(0, 0, 0, 0.25);
+   transition: all 0.5s;
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 16px;
+
+}
+
+#contact_form button:hover {
+    box-shadow: 0px 3px #ca619f;
+}
+
+.container {
+    margin-top: 30px;
+    height: 50px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
